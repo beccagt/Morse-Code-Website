@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="../styles/style.css" rel="stylesheet">
+    <title>English to Morse Code Translation</title>
+
+    <script src="../scripts/main.js" async></script>
+    <script src="../scripts/morse-encode.js" async></script>
+</head>
+
+<nav>
+    <a class="nav" href="./index.html" title="Home">Home</a>
+    <a class="nav" href="./telegraph-key.html" title="Beep Beeeeeeep Beep">Telegraph Key</a>
+    <a class="nav" href="./decode.html" title="Translate Morse Code to English">Translate to English</a>
+    <a class="nav" href="./encode.html" title="Translate English to Morse Code">Translate to Morse Code</a>
+</nav>
+
+
+
+<div class="translationBlock" id="ToMorseDiv">
+
+    <h1>English to Morse Code</h1>
+
+    <label for="alphInputId">Type here to translate English to Morse Code.</label>
+    <br>
+    <textarea class="textbox" id="alphInputId" name="alphInput" placeholder="Input text here"></textarea>
+    <br><br>
+    <input type="button" class="translatebut" id="transToMorse" value="Translate" onclick="transToMorse()">
+
+    <p class="result" id="toMorseRes"></p>
+    <p class="small">Any issue with translation will be replaced with a '?'</p>
+</div>
+
+<footer>
+    <p class="bottom contact">
+        Contact me at rebeccagt@icloud.com
+    </p>
+</footer>
+
+</html>

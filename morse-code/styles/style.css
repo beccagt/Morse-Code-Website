@@ -1,0 +1,106 @@
+/*trying to figure out how to make it more visually appealing with the bottom 
+part... #main exists if i figure it out but changing to body for ease for now*/
+body {
+    background-color: rgb(241, 230, 212);
+    margin: 0;
+}
+
+.mid {
+    font-size: 20px;
+    color: rgb(111, 110, 110);
+}
+
+.small {
+    font-size: 17px;
+    color: rgb(111, 110, 110);
+}
+
+.bottom {
+    background-color: black;
+    color: rgb(236, 229, 217);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.explanation {
+    opacity: 0.80;
+}
+
+.textbox {
+    height: 100px;
+    width: 600px;
+}
+
+.result {
+    font-size: 30px;
+}
+
+
+.topnav {
+    position: absolute;
+    padding: 0;
+    height: 56px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 4;
+    font-size: 16px;
+    background-color: #000 !important;
+    color: #fff !important;
+    overflow: hidden;
+    box-sizing: inherit;
+    line-height: 2.0;
+}
+
+nav{
+    background-color: black;
+    opacity: 80%;
+}
+
+nav a{
+
+    width: auto;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 2;
+    color: rgb(236, 229, 217);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: rgb(47, 6, 109);
+    color: rgb(236, 229, 217);;
+}
+
+.translationBlock{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+main{
+    margin-left: 20px;
+    text-align: center;
+}
+
+.big{
+    font-size:50px;
+}
+
+#firstText{
+    padding-top:100px;
+    margin-bottom: 30px;
+}
+
+#welcomeMorse{
+    margin: 30px;
+}
+
+footer p{
+    padding: 10px;
+    margin-bottom: 0px;
+    opacity: 80%;
+}
+

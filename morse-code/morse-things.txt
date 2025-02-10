@@ -1,0 +1,7 @@
+okay. this is simply for me to keep track of.
+
+morse code:
+    - dits and das
+    - a dash is three dots
+    - indicate the end of a letter by a pause equal to 3 dots (a dash)
+    - indicate the end of a word by a pause equal to 7 dots
